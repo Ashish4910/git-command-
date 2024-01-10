@@ -1,0 +1,382 @@
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~
+$ cd C:\Spring_crud_jsp\Spring_crud_jsp\Spring_crud_jsp\Spring_crud_jsp
+bash: cd: C:Spring_crud_jspSpring_crud_jspSpring_crud_jspSpring_crud_jsp: No such file or directory
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~
+$ cd C:\Spring_crud_jsp\Spring_crud_jsp
+bash: cd: C:Spring_crud_jspSpring_crud_jsp: No such file or directory
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~
+$ cd c
+bash: cd: c: No such file or directory
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~
+$ cd C:\
+> C:\Spring_crud_jsp
+bash: cd: C:C:Spring_crud_jsp: No such file or directory
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~
+$ cd C:\Spring_crud_jsp
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 /c/Spring_crud_jsp
+$ cd Spring_crud_jsp
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 /c/Spring_crud_jsp/Spring_crud_jsp
+$ cd Spring_crud_jsp
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 /c/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp
+$ cd Spring_crud_jsp
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 /c/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp
+$ git init
+Initialized empty Git repository in C:/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp/.git/
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 /c/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp (master)
+$ ls -a
+./  ../  .classpath  .git/  .project  .settings/  .vscode/  build/  pom.xml  src/  target/  WebContent/
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 /c/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        .vscode/
+        WebContent/
+        build/
+        pom.xml
+        src/
+        target/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 /c/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp (master)
+$ git add .
+warning: in the working copy of 'WebContent/WEB-INF/spring-mvc-crud-demo-servlet.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'WebContent/WEB-INF/web.xml', LF will be replaced by CRLF the next time Git touches it
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 /c/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/.jsdtscope
+        new file:   .settings/org.eclipse.jdt.apt.core.prefs
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   .settings/org.eclipse.m2e.core.prefs
+        new file:   .settings/org.eclipse.wst.common.component
+        new file:   .settings/org.eclipse.wst.common.project.facet.core.xml
+        new file:   .settings/org.eclipse.wst.jsdt.ui.superType.container
+        new file:   .settings/org.eclipse.wst.jsdt.ui.superType.name
+        new file:   .settings/org.eclipse.wst.validation.prefs
+        new file:   .vscode/launch.json
+        new file:   WebContent/META-INF/MANIFEST.MF
+        new file:   WebContent/WEB-INF/lib/antlr-2.7.7.jar
+        new file:   WebContent/WEB-INF/lib/c3p0-0.9.5.2.jar
+        new file:   WebContent/WEB-INF/lib/classmate-1.3.0.jar
+        new file:   WebContent/WEB-INF/lib/commons-fileupload-1.4.jar
+        new file:   WebContent/WEB-INF/lib/commons-io-2.14.0.jar
+        new file:   WebContent/WEB-INF/lib/dom4j-1.6.1.jar
+        new file:   WebContent/WEB-INF/lib/hibernate-c3p0-5.2.12.Final.jar
+        new file:   WebContent/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar
+        new file:   WebContent/WEB-INF/lib/hibernate-core-5.2.12.Final.jar
+        new file:   WebContent/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar
+        new file:   WebContent/WEB-INF/lib/jandex-2.0.3.Final.jar
+        new file:   WebContent/WEB-INF/lib/javassist-3.20.0-GA.jar
+        new file:   WebContent/WEB-INF/lib/javax.activation-1.2.0.jar
+        new file:   WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar
+        new file:   WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar
+        new file:   WebContent/WEB-INF/lib/jaxb-api-2.3.0.jar
+        new file:   WebContent/WEB-INF/lib/jaxb-core-2.3.0.jar
+        new file:   WebContent/WEB-INF/lib/jaxb-impl-2.3.0.jar
+        new file:   WebContent/WEB-INF/lib/jboss-logging-3.3.0.Final.jar
+        new file:   WebContent/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar
+        new file:   WebContent/WEB-INF/lib/mchange-commons-java-0.2.11.jar
+        new file:   WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar
+        new file:   WebContent/WEB-INF/lib/servlet-api.jar
+        new file:   WebContent/WEB-INF/lib/spring-aop-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-aop-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-aop-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-aspects-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-aspects-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-aspects-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-beans-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-beans-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-beans-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-context-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-context-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-context-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-context-indexer-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-context-indexer-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-context-indexer-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-context-support-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-context-support-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-context-support-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-core-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-core-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-core-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-expression-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-expression-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-expression-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-instrument-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-instrument-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-instrument-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-jcl-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-jcl-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-jcl-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-jdbc-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-jdbc-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-jdbc-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-jms-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-jms-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-jms-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-messaging-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-messaging-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-messaging-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-orm-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-orm-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-orm-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-oxm-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-oxm-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-oxm-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-test-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-test-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-test-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-tx-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-tx-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-tx-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-web-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-web-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-web-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-webflux-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-webflux-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-webflux-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-webmvc-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-webmvc-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-webmvc-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/lib/spring-websocket-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+        new file:   WebContent/WEB-INF/lib/spring-websocket-5.0.2.BUILD-SNAPSHOT-sources.jar
+        new file:   WebContent/WEB-INF/lib/spring-websocket-5.0.2.BUILD-SNAPSHOT.jar
+        new file:   WebContent/WEB-INF/spring-mvc-crud-demo-servlet.xml
+        new file:   WebContent/WEB-INF/view/AdminEdit.jsp
+        new file:   WebContent/WEB-INF/view/Admin_Page.jsp
+        new file:   WebContent/WEB-INF/view/Image_login.jsp
+        new file:   WebContent/WEB-INF/view/UserEdit.jsp
+        new file:   WebContent/WEB-INF/view/User_Page.jsp
+        new file:   WebContent/WEB-INF/view/User_edit.jsp
+        new file:   WebContent/WEB-INF/view/admin.jsp
+        new file:   WebContent/WEB-INF/view/home.jsp
+        new file:   WebContent/WEB-INF/view/login.jsp
+        new file:   WebContent/WEB-INF/view/upload_file.jsp
+        new file:   WebContent/WEB-INF/web.xml
+        new file:   WebContent/index.jsp
+        new file:   build/classes/com/coder/community/DAO/DAO.class
+        new file:   build/classes/com/coder/community/DAO/DAOImpl.class
+        new file:   build/classes/com/coder/community/controller/jsp_controller.class
+        new file:   build/classes/com/coder/community/entity/User.class
+        new file:   pom.xml
+        new file:   src/com/coder/community/CoderCommunityServlet.java
+        new file:   src/com/coder/community/DAO/DAO.java
+        new file:   src/com/coder/community/DAO/DAOImpl.java
+        new file:   src/com/coder/community/controller/jsp_controller.java
+        new file:   src/com/coder/community/entity/User.java
+        new file:   src/main/java/com/coder/community/DAO/DAO.java
+        new file:   src/main/java/com/coder/community/DAO/DAOImpl.java
+        new file:   src/main/java/com/coder/community/controller/jsp_controller.java
+        new file:   src/main/java/com/coder/community/entity/User.java
+        new file:   target/classes/com/coder/community/DAO/DAO.class
+        new file:   target/classes/com/coder/community/DAO/DAOImpl.class
+        new file:   target/classes/com/coder/community/controller/jsp_controller.class
+        new file:   target/classes/com/coder/community/entity/User.class
+        new file:   target/classes/main/java/com/coder/community/DAO/DAO.class
+        new file:   target/classes/main/java/com/coder/community/DAO/DAOImpl.class
+        new file:   target/classes/main/java/com/coder/community/controller/jsp_controller.class
+        new file:   target/classes/main/java/com/coder/community/entity/User.class
+        new file:   target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+        new file:   target/m2e-wtp/web-resources/META-INF/maven/Spring_crud_jsp/Spring_crud_jsp/pom.properties
+        new file:   target/m2e-wtp/web-resources/META-INF/maven/Spring_crud_jsp/Spring_crud_jsp/pom.xml
+
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 /c/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp (master)
+$ git commit -m "Initial Commit"
+[master (root-commit) 4c1f2b6] Initial Commit
+ 137 files changed, 4054 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/.jsdtscope
+ create mode 100644 .settings/org.eclipse.jdt.apt.core.prefs
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 .settings/org.eclipse.m2e.core.prefs
+ create mode 100644 .settings/org.eclipse.wst.common.component
+ create mode 100644 .settings/org.eclipse.wst.common.project.facet.core.xml
+ create mode 100644 .settings/org.eclipse.wst.jsdt.ui.superType.container
+ create mode 100644 .settings/org.eclipse.wst.jsdt.ui.superType.name
+ create mode 100644 .settings/org.eclipse.wst.validation.prefs
+ create mode 100644 .vscode/launch.json
+ create mode 100644 WebContent/META-INF/MANIFEST.MF
+ create mode 100644 WebContent/WEB-INF/lib/antlr-2.7.7.jar
+ create mode 100644 WebContent/WEB-INF/lib/c3p0-0.9.5.2.jar
+ create mode 100644 WebContent/WEB-INF/lib/classmate-1.3.0.jar
+ create mode 100644 WebContent/WEB-INF/lib/commons-fileupload-1.4.jar
+ create mode 100644 WebContent/WEB-INF/lib/commons-io-2.14.0.jar
+ create mode 100644 WebContent/WEB-INF/lib/dom4j-1.6.1.jar
+ create mode 100644 WebContent/WEB-INF/lib/hibernate-c3p0-5.2.12.Final.jar
+ create mode 100644 WebContent/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar
+ create mode 100644 WebContent/WEB-INF/lib/hibernate-core-5.2.12.Final.jar
+ create mode 100644 WebContent/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar
+ create mode 100644 WebContent/WEB-INF/lib/jandex-2.0.3.Final.jar
+ create mode 100644 WebContent/WEB-INF/lib/javassist-3.20.0-GA.jar
+ create mode 100644 WebContent/WEB-INF/lib/javax.activation-1.2.0.jar
+ create mode 100644 WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar
+ create mode 100644 WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar
+ create mode 100644 WebContent/WEB-INF/lib/jaxb-api-2.3.0.jar
+ create mode 100644 WebContent/WEB-INF/lib/jaxb-core-2.3.0.jar
+ create mode 100644 WebContent/WEB-INF/lib/jaxb-impl-2.3.0.jar
+ create mode 100644 WebContent/WEB-INF/lib/jboss-logging-3.3.0.Final.jar
+ create mode 100644 WebContent/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar
+ create mode 100644 WebContent/WEB-INF/lib/mchange-commons-java-0.2.11.jar
+ create mode 100644 WebContent/WEB-INF/lib/mysql-connector-java-8.0.12.jar
+ create mode 100644 WebContent/WEB-INF/lib/servlet-api.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-aop-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-aop-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-aop-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-aspects-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-aspects-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-aspects-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-beans-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-beans-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-beans-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-context-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-context-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-context-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-context-indexer-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-context-indexer-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-context-indexer-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-context-support-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-context-support-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-context-support-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-core-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-core-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-core-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-expression-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-expression-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-expression-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-instrument-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-instrument-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-instrument-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-jcl-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-jcl-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-jcl-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-jdbc-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-jdbc-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-jdbc-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-jms-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-jms-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-jms-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-messaging-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-messaging-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-messaging-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-orm-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-orm-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-orm-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-oxm-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-oxm-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-oxm-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-test-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-test-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-test-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-tx-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-tx-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-tx-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-web-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-web-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-web-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-webflux-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-webflux-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-webflux-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-webmvc-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-webmvc-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-webmvc-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-websocket-5.0.2.BUILD-SNAPSHOT-javadoc.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-websocket-5.0.2.BUILD-SNAPSHOT-sources.jar
+ create mode 100644 WebContent/WEB-INF/lib/spring-websocket-5.0.2.BUILD-SNAPSHOT.jar
+ create mode 100644 WebContent/WEB-INF/spring-mvc-crud-demo-servlet.xml
+ create mode 100644 WebContent/WEB-INF/view/AdminEdit.jsp
+ create mode 100644 WebContent/WEB-INF/view/Admin_Page.jsp
+ create mode 100644 WebContent/WEB-INF/view/Image_login.jsp
+ create mode 100644 WebContent/WEB-INF/view/UserEdit.jsp
+ create mode 100644 WebContent/WEB-INF/view/User_Page.jsp
+ create mode 100644 WebContent/WEB-INF/view/User_edit.jsp
+ create mode 100644 WebContent/WEB-INF/view/admin.jsp
+ create mode 100644 WebContent/WEB-INF/view/home.jsp
+ create mode 100644 WebContent/WEB-INF/view/login.jsp
+ create mode 100644 WebContent/WEB-INF/view/upload_file.jsp
+ create mode 100644 WebContent/WEB-INF/web.xml
+ create mode 100644 WebContent/index.jsp
+ create mode 100644 build/classes/com/coder/community/DAO/DAO.class
+ create mode 100644 build/classes/com/coder/community/DAO/DAOImpl.class
+ create mode 100644 build/classes/com/coder/community/controller/jsp_controller.class
+ create mode 100644 build/classes/com/coder/community/entity/User.class
+ create mode 100644 pom.xml
+ create mode 100644 src/com/coder/community/CoderCommunityServlet.java
+ create mode 100644 src/com/coder/community/DAO/DAO.java
+ create mode 100644 src/com/coder/community/DAO/DAOImpl.java
+ create mode 100644 src/com/coder/community/controller/jsp_controller.java
+ create mode 100644 src/com/coder/community/entity/User.java
+ create mode 100644 src/main/java/com/coder/community/DAO/DAO.java
+ create mode 100644 src/main/java/com/coder/community/DAO/DAOImpl.java
+ create mode 100644 src/main/java/com/coder/community/controller/jsp_controller.java
+ create mode 100644 src/main/java/com/coder/community/entity/User.java
+ create mode 100644 target/classes/com/coder/community/DAO/DAO.class
+ create mode 100644 target/classes/com/coder/community/DAO/DAOImpl.class
+ create mode 100644 target/classes/com/coder/community/controller/jsp_controller.class
+ create mode 100644 target/classes/com/coder/community/entity/User.class
+ create mode 100644 target/classes/main/java/com/coder/community/DAO/DAO.class
+ create mode 100644 target/classes/main/java/com/coder/community/DAO/DAOImpl.class
+ create mode 100644 target/classes/main/java/com/coder/community/controller/jsp_controller.class
+ create mode 100644 target/classes/main/java/com/coder/community/entity/User.class
+ create mode 100644 target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+ create mode 100644 target/m2e-wtp/web-resources/META-INF/maven/Spring_crud_jsp/Spring_crud_jsp/pom.properties
+ create mode 100644 target/m2e-wtp/web-resources/META-INF/maven/Spring_crud_jsp/Spring_crud_jsp/pom.xml
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 /c/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp (master)
+$ git log
+commit 4c1f2b6a1ce9e53f761a4e84dfaffd22f7de7b9c (HEAD -> master)
+Author: Harshal Davane <34303100+harshaldavane@users.noreply.github.com>
+Date:   Wed Jan 10 11:20:28 2024 +0530
+
+    Initial Commit
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 /c/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp (master)
+$ git remote add origin https://github.com/Ashish4910/Spring-Project-JSP-and-Hibernate.git
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 /c/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Ashish4910/Spring-Project-JSP-and-Hibernate.git'
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 /c/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp (master)
+$ git push -u origin master
+Enumerating objects: 189, done.
+Counting objects: 100% (189/189), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (153/153), done.
+Writing objects: 100% (189/189), 49.77 MiB | 3.55 MiB/s, done.
+Total 189 (delta 16), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (16/16), done.
+To https://github.com/Ashish4910/Spring-Project-JSP-and-Hibernate.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 /c/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp/Spring_crud_jsp (master)
+$
