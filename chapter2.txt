@@ -1,28 +1,13 @@
-$ cd Desktop
-$ mkdir story
-$ touch chapter1.txt
-$ code chapter1.txt
+=> check the branch 
+$ git branch 
 
+=> create the new branch
+$ git branch alien-plot
 
-git init 
-ls -a 
-git status 
-git add chapter1.txt
-git status
-git commit -m "Completed Chapter 1"
-git log 
-touch chapter2.txt
-touch chapter2.txt
-code chapter
-git status 
-it add . 
-git status
-git commit -m "Completed chapter 2 and 3 "
-git log
-==if you have done some change in the txt file you change undo it =======
+=> check the branch 
+$ git branch
 
-git diff chapter3.txt
-git checkout chapter3.txt
-git log
+=>change the branch to that you have created
+$ git checkout alien-plot
 
-
+$ git branch
