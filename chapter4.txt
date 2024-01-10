@@ -1,0 +1,99 @@
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~
+$ cd desktop
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~/desktop
+$ cd story
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~/desktop/story (master)
+$ git log
+commit 42efccb1fd06eac5d5d76be2311c3cc45b33da41 (HEAD -> master, origin/master)
+Author: Harshal Davane <34303100+harshaldavane@users.noreply.github.com>
+Date:   Wed Jan 10 11:33:40 2024 +0530
+
+    Add full_Command_to_push_project.txt
+
+commit 1acdc3e663a5901ec536c67cf8eb5898dcedeb92
+Author: Harshal Davane <34303100+harshaldavane@users.noreply.github.com>
+Date:   Tue Jan 9 15:54:19 2024 +0530
+
+    Completed chapter 2 and 3
+
+commit 4726b9a501ada04d214d8fed0fb7dfc573044e10
+Author: Harshal Davane <34303100+harshaldavane@users.noreply.github.com>
+Date:   Tue Jan 9 15:51:54 2024 +0530
+
+    Completed chapter 1
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~/desktop/story (master)
+$ git branch 
+* master
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~/desktop/story (master)
+$ git branch alien-plot
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~/desktop/story (master)
+$ git branch
+  alien-plot
+* master
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~/desktop/story (master)
+$ git checkout alien-plot
+Switched to branch 'alien-plot'
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~/desktop/story (alien-plot)      
+$ git branch
+* alien-plot
+  master
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~/desktop/story (alien-plot)      
+$ git add .
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~/desktop/story (alien-plot)      
+$ git commit -m "Modify chapter 2 to alien-plot"
+[alien-plot 214fc43] Modify chapter 2 to alien-plot
+ 1 file changed, 9 insertions(+), 24 deletions(-)
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~/desktop/story (alien-plot)      
+$ git log
+commit 214fc439f13f795466dce6c7d6fa55385a454dd2 (HEAD -> alien-plot)
+Author: Harshal Davane <34303100+harshaldavane@users.noreply.github.com>
+Date:   Wed Jan 10 12:17:08 2024 +0530
+
+    Modify chapter 2 to alien-plot
+
+commit 42efccb1fd06eac5d5d76be2311c3cc45b33da41 (origin/master, 
+master)
+Author: Harshal Davane <34303100+harshaldavane@users.noreply.github.com>
+Date:   Wed Jan 10 11:33:40 2024 +0530
+
+    Add full_Command_to_push_project.txt
+
+commit 1acdc3e663a5901ec536c67cf8eb5898dcedeb92
+Author: Harshal Davane <34303100+harshaldavane@users.noreply.github.com>
+Date:   Tue Jan 9 15:54:19 2024 +0530
+
+    Completed chapter 2 and 3
+
+commit 4726b9a501ada04d214d8fed0fb7dfc573044e10
+Author: Harshal Davane <34303100+harshaldavane@users.noreply.github.com>
+Date:   Tue Jan 9 15:51:54 2024 +0530
+
+    Completed chapter 1
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~/desktop/story (alien-plot)      
+$ git branch
+* alien-plot
+  master
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~/desktop/story (alien-plot)      
+$ git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~/desktop/story (alien-plot)      
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+ADMIN@DESKTOP-T1D9FVI MINGW64 ~/desktop/story (master)
+$
